@@ -57,27 +57,12 @@ const initDb = {
             created_at
         )
         VALUES(
-            "Pizzaria Guloso",
+            "Adicione aqui um projeto",
             2,
             1,
-            1630455176656
+            1629048835994
         )
-    `);
-        await db.run(`
-        INSERT INTO jobs (
-            name,
-            daily_hours,
-            total_hours,
-            created_at
-        )
-        VALUES(
-            "One Two Project",
-            3,
-            47,
-            1630455176656
-        )
-    `);
-
+    `)
 
         await db.close()
         // fecha a porta do banco
